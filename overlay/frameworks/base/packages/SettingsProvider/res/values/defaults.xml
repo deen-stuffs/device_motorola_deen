@@ -22,4 +22,7 @@
 
     <!-- Set bluetooth to off on Setup Wizard -->
     <bool name="def_bluetooth_on">false</bool>
+
+    <!-- Screen brightness automatic mode -->
+    <bool name="def_screen_brightness_automatic_mode">true</bool>
 </resources>
