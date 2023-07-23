@@ -26,8 +26,6 @@ DEVICE_PATH := device/motorola/deen
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
-BOARD_VENDOR := motorola
-
 # Platform
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -250,3 +248,6 @@ WIFI_DRIVER_FW_PATH_AP  := "ap"
 WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
+
+# inherit from the proprietary version
+-include vendor/motorola/deen/BoardConfigVendor.mk
