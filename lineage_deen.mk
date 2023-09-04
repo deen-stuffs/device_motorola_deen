@@ -28,11 +28,11 @@ $(call inherit-product, vendor/lineage/config/lineage_audio.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device Identifiers
-PRODUCT_BRAND := motorola
+PRODUCT_BRAND := Motorola
 PRODUCT_DEVICE := deen
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_MANUFACTURER := Motorola
 PRODUCT_NAME := lineage_deen
-PRODUCT_MODEL := motorola one
+PRODUCT_MODEL := Motorola One
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
