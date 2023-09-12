@@ -5,6 +5,12 @@
 # Audio
 use.voice.path.for.pcm.voip=false
 
+# Disable Blur
+ro.launcher.blur.appLaunch=0
+ro.sf.blurs_are_expensive=0
+ro.surface_flinger.supports_background_blur=0
+debug.sf.disable_backpressure=0
+
 # Camera
 media.camera.ts.monotonic=1
 persist.camera.HAL3.enabled=1
