@@ -312,6 +312,7 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 PRODUCT_PACKAGES += \
+    SimpleGallery \
     Via
 
 # Perf
