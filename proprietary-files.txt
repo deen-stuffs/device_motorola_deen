@@ -689,20 +689,13 @@ vendor/firmware/a530v3_gpmu.fw2
 vendor/firmware/a530v3_seq.fw2
 vendor/firmware/a540_gpmu.fw2
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqtikeymaster4.so
+# Keymaster - from daisy QKQ1.191002.002 V11.0.21.0
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|ac0aabf396888c9dc8b6dc23291e190daa943e24
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|95d84ef473d4cb733297cbf01c5d1e18bb3325d4
+vendor/lib64/libkeymasterdeviceutils.so|784e8f3e6bb36214d171ba127454554049d140f5
+vendor/lib64/libkeymasterprovision.so|245fa13cad4dc81e66bc6fc3b7d20fa6c1afdefc
+vendor/lib64/libkeymasterutils.so|126096a6ce1ce50db8193a4617f1b1b0f6b3105c
 
 # Listen
 vendor/lib/libgcs-calwrapper.so
